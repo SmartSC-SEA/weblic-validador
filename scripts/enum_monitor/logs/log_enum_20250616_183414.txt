@@ -1,0 +1,16 @@
+Log de validação ENUM - 2025-06-16 18:34:14
+
+VALORES_NOVOS:
+  ('fat_weblic_processo_subitem', 'sta_item_processo_lote', 'NULL')
+  ('fat_weblic_processo_subitem', 'sta_item_processo_estimado', 'NULL')
+  ('fat_weblic_processo_subitem', 'sta_item_processo_resultado', 'NULL')
+  ('fat_weblic_processo_item_resultado', 'sta_fornecedor_estrangeiro', 'NULL')
+  ('fat_weblic_processo_subitem', 'sta_item_processo_nao_acumulativo', 'NULL')
+
+VALORES_REMOVIDOS:
+  ('fat_weblic_processo_subitem', 'sta_item_processo_lote', nan)
+  ('fat_weblic_processo_subitem', 'sta_item_processo_estimado', nan)
+  ('fat_weblic_processo_subitem', 'sta_item_processo_nao_acumulativo', nan)
+  ('fat_weblic_processo_subitem', 'sta_item_processo_resultado', nan)
+  ('fat_weblic_processo_item_resultado', 'sta_fornecedor_estrangeiro', nan)
+

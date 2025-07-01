@@ -1,0 +1,17 @@
+Log de validação de schema - 2025-07-01 16:28:55
+
+TABELAS_ADICIONADAS:
+  Nenhum.
+
+TABELAS_REMOVIDAS:
+  Nenhum.
+
+COLUNAS_ADICIONADAS:
+  Nenhum.
+
+COLUNAS_REMOVIDAS:
+  Nenhum.
+
+TIPOS_ALTERADOS:
+  Nenhum.
+

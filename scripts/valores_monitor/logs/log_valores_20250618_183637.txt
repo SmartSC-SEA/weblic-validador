@@ -1,0 +1,5 @@
+{'cod_processo': 16496, 'status': 'Erro', 'detalhes': "comparar_valores() missing 1 required positional argument: 'valores_weblic'"}
+{'cod_processo': 14362, 'status': 'Erro', 'detalhes': "comparar_valores() missing 1 required positional argument: 'valores_weblic'"}
+{'cod_processo': 18407, 'status': 'Erro', 'detalhes': "comparar_valores() missing 1 required positional argument: 'valores_weblic'"}
+{'cod_processo': 17909, 'status': 'Erro', 'detalhes': "comparar_valores() missing 1 required positional argument: 'valores_weblic'"}
+{'cod_processo': 15347, 'status': 'Erro', 'detalhes': "comparar_valores() missing 1 required positional argument: 'valores_weblic'"}

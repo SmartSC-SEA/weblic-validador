@@ -1,0 +1,5 @@
+{'cod_processo': 8667, 'status': 'Erro', 'detalhes': 'Erro ao buscar dados do processo 8667: 401'}
+{'cod_processo': 4308, 'status': 'Erro', 'detalhes': 'Erro ao buscar dados do processo 4308: 401'}
+{'cod_processo': 4619, 'status': 'Erro', 'detalhes': 'Erro ao buscar dados do processo 4619: 401'}
+{'cod_processo': 5289, 'status': 'Erro', 'detalhes': 'Erro ao buscar dados do processo 5289: 401'}
+{'cod_processo': 21062, 'status': 'Erro', 'detalhes': 'Erro ao buscar dados do processo 21062: 401'}

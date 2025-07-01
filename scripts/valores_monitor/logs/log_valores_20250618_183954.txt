@@ -1,0 +1,5 @@
+{'cod_processo': 16813, 'edital_completo': 'DL - SICOS 36/2024', 'valores_dw': {'valor_estimado': 17061.04, 'valor_homologado': 17061.04}, 'valores_weblic': {'valor_estimado': 17061.04, 'valor_homologado': 17061.04}, 'status': 'OK'}
+{'cod_processo': 14675, 'edital_completo': 'DL - SECOM 8/2024', 'valores_dw': {'valor_estimado': 8306.64, 'valor_homologado': 8306.64}, 'valores_weblic': {'valor_estimado': 8306.64, 'valor_homologado': 8306.64}, 'status': 'OK'}
+{'cod_processo': 19858, 'edital_completo': 'PE - SEA 362/2025', 'valores_dw': {'valor_estimado': 2900479.56, 'valor_homologado': 1237331.52}, 'valores_weblic': {'valor_estimado': 2900479.56, 'valor_homologado': 1237331.52}, 'status': 'OK'}
+{'cod_processo': 19323, 'edital_completo': 'PE - SEA 258/2025', 'valores_dw': {'valor_estimado': 234210075.84, 'valor_homologado': 97710360.0}, 'valores_weblic': {'valor_estimado': 234210075.84, 'valor_homologado': 97710360.0}, 'status': 'OK'}
+{'cod_processo': 16086, 'edital_completo': 'IL - UDESC 714/2024', 'valores_dw': {'valor_estimado': 690000.0, 'valor_homologado': 690000.0}, 'valores_weblic': {'valor_estimado': 690000.0, 'valor_homologado': 690000.0}, 'status': 'OK'}

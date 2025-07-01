@@ -1,0 +1,7 @@
+"""
+Arquivo de configuração de parâmetros do Weblic
+Substitua este arquivo por 'config.py' com os dados reais.
+"""
+
+ENDPOINT_BASE_URL = "https://weblic.sc.gov.br/api/v1/"
+TOKEN = "seu_token_aqui"

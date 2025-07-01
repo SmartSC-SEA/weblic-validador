@@ -1,0 +1,14 @@
+"""
+Conexão com banco de dados Boavista
+Substitua este arquivo por 'conexao_boavista.py' com os dados reais.
+"""
+
+import mysql.connector
+
+def conectar():
+    return mysql.connector.connect(
+        host="localhost",
+        user="usuario",
+        password="senha",
+        database="boavista"
+    )

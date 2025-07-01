@@ -1,0 +1,5 @@
+{'cod_processo': 16496, 'edital_completo': 'IL - UDESC 1168/2024', 'valores_dw': {'valor_estimado': 641.94, 'valor_homologado': 641.94}, 'valores_weblic': {'valor_estimado': 641.94, 'valor_homologado': 641.94}, 'status': 'OK'}
+{'cod_processo': 14362, 'edital_completo': 'IL - UDESC 242/2024', 'valores_dw': {'valor_estimado': 1005.4, 'valor_homologado': 1005.4}, 'valores_weblic': {'valor_estimado': 1005.4, 'valor_homologado': 1005.4}, 'status': 'OK'}
+{'cod_processo': 18407, 'edital_completo': 'DL - IMA 147/2024', 'valores_dw': {'valor_estimado': 15800.95, 'valor_homologado': 15800.95}, 'valores_weblic': {'valor_estimado': 15800.95, 'valor_homologado': 15800.95}, 'status': 'OK'}
+{'cod_processo': 17909, 'edital_completo': 'IL - UDESC 1637/2024', 'valores_dw': {'valor_estimado': 275.0, 'valor_homologado': 275.0}, 'valores_weblic': {'valor_estimado': 275.0, 'valor_homologado': 275.0}, 'status': 'OK'}
+{'cod_processo': 15347, 'edital_completo': 'IL - SED 106/2024', 'valores_dw': {'valor_estimado': 111600.0, 'valor_homologado': 111600.0}, 'valores_weblic': {'valor_estimado': 111600.0, 'valor_homologado': 111600.0}, 'status': 'OK'}

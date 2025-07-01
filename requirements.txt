@@ -1,0 +1,6 @@
+pandas
+impyla
+requests
+mysql-connector-python
+pdfplumber
+PyPDF2

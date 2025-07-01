@@ -1,0 +1,8 @@
+Log de validação ENUM - 2025-06-16 18:39:14
+
+VALORES_NOVOS:
+  Nenhum.
+
+VALORES_REMOVIDOS:
+  Nenhum.
+
