@@ -1,10 +1,12 @@
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-# imports
+
 from scripts.config.conexao_boavista import conectar_impala_vw
 from scripts.config.config import VW_VALIDACAO
 from datetime import datetime
+import pandas as pd
 import os
+
 from scraping_weblic import (
     obter_valor_referencia,
     obter_valor_homologado_modalidade_padrao,
@@ -13,6 +15,11 @@ from scraping_weblic import (
 )
 
 view_validacao = VW_VALIDACAO
+
+# Caminhos das pastas específicas
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PASTA_LOGS = os.path.join(BASE_DIR, "logs")
+os.makedirs(PASTA_LOGS, exist_ok=True)
 
 def obter_amostra_dw(qtd):
     conn = conectar_impala_vw()
@@ -72,7 +79,7 @@ def obter_valores_weblic(processo):
     }
 
 
-def comparar_valores(cod_processo, edital_completo,valores_dw, valores_weblic):
+def comparar_valores(cod_processo, edital_completo, valores_dw, valores_weblic):
     status = "OK" if valores_dw == valores_weblic else "Divergente"
     return {
         "cod_processo": cod_processo,
@@ -84,14 +91,14 @@ def comparar_valores(cod_processo, edital_completo,valores_dw, valores_weblic):
 
 
 def gerar_log(resultados):
-    logs_dir = os.path.join(os.path.dirname(__file__),"logs")
-    os.makedirs(logs_dir, exist_ok=True)
+    data_hora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    nome_arquivo = os.path.join(PASTA_LOGS, f'log_valores_{datetime.now().strftime("%Y%m%d")}.txt')
 
-    data_hora = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_file = os.path.join(logs_dir, f"log_valores_{data_hora}.txt")
+    with open(nome_arquivo, 'w', encoding='utf-8') as f:
+        f.write(f'Log de validação de valores - {data_hora}\n\n')
 
-    with open(log_file, "w", encoding="utf-8") as f:
         for r in resultados:
-            f.write(str(r) + "\n")
+            f.write(f"{r}\n")
 
-    print(f"📝 Log salvo em {log_file}")
+    print(f"📝 Log salvo em {nome_arquivo}")
+    return nome_arquivo

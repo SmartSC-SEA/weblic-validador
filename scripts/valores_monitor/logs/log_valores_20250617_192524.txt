@@ -1,5 +1,0 @@
-{'cod_processo': 8667, 'valores_dw': {'valor_estimado': 23610.84, 'valor_homologado': 18425.0}, 'valores_weblic': {'valor_estimado': 0.0, 'valor_homologado': 0}, 'status': 'Divergente'}
-{'cod_processo': 4308, 'valores_dw': {'valor_estimado': 687300.0, 'valor_homologado': 24450.0}, 'valores_weblic': {'valor_estimado': 0.0, 'valor_homologado': 0}, 'status': 'Divergente'}
-{'cod_processo': 4619, 'valores_dw': {'valor_estimado': 860242.32, 'valor_homologado': 832772.16}, 'valores_weblic': {'valor_estimado': 0.0, 'valor_homologado': 0}, 'status': 'Divergente'}
-{'cod_processo': 5289, 'valores_dw': {'valor_estimado': 4230382.54, 'valor_homologado': 2827984.96}, 'valores_weblic': {'valor_estimado': 0.0, 'valor_homologado': 0}, 'status': 'Divergente'}
-{'cod_processo': 21062, 'valores_dw': {'valor_estimado': 15423.8, 'valor_homologado': 15423.8}, 'valores_weblic': {'valor_estimado': 0.0, 'valor_homologado': 0}, 'status': 'Divergente'}
